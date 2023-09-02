@@ -10,3 +10,9 @@
 h1,h2 {
   font-family: 'Racing Sans One', cursive;
 }
+
+a:link, a:visited,  a:hover, a:active{
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+}
