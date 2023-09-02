@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="icon" type="image/webp" href="./assets/images/1054990_rocket_spacecraft_spaceship_icon.webp">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <title>Desafio Landing Page - StarDev Academy 🚀</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
   </div> -->
   <header class="header">
     <div class="header-content">
-      <div class="logo">
+      <div class="logo" data-aos="fade-up" data-aos-duration="600">
         <img src="./assets/images/stardev-logo1.webp" title="Logotipo da StarDev Academy" alt="Logotipo da StarDev Academy">
       </div>
       <h1>Domine a força da programação na StarDev Academy!</h1>
@@ -38,7 +39,7 @@
     </div>
   </header>
   <main>
-    <section id="informations">
+    <section id="informations" data-aos="fade-up" data-aos-duration="600">
       <h2>Quem Somos</h2>
       <p>
         A StarDev Academy é uma empresa inovadora que oferece cursos gratuitos de desenvolvimento de sistemas para aqueles interessados em aprender sobre programação e tecnologia. Com um tema divertido e envolvente de espaço, Star Wars e universo, a StarDev Academy busca inspirar e motivar seus alunos a explorar o mundo da tecnologia.
@@ -71,13 +72,13 @@
         </div>
       </div>
     </section>
-    <section id="transform-world">
+    <section id="transform-world" data-aos="fade-up" data-aos-duration="600">
       <!-- <p>TRANSFORME O MUNDO COM A GENTE</p> -->
       <h2>Aqui vai alguma coisa</h2>
       <P>FAQ</P>
       <P>TESTMONIALS</P>
     </section>
-    <section id="professional-challenges">
+    <section id="professional-challenges" data-aos="fade-up" data-aos-duration="600">
       <img src="./assets/images/banner_StarDev.webp" id="banner" title="Banner da StarDev Academy" alt="Banner da StarDev Academy">
       <h2>Inscreva-se Agora, enquanto ainda tem vagas!!!</h2>
       <p>
@@ -86,11 +87,15 @@
     </section>
   </main>
   <footer>
-    <img class="star-logo" src="./assets/images/stardev-logo2.webp" title="Logotipo da StarDev Academy" alt="Logotipo da StarDev Academy">
+    <a href="#"><img data-aos="fade-up" data-aos-duration="600" class="star-logo" src="./assets/images/stardev-logo2.webp" title="Logotipo da StarDev Academy" alt="Logotipo da StarDev Academy"></a>
     <p>© 2023. Designed by <a href="https://github.com/jonas-holanda" target="_blank">Jonas Holanda.</a> All Rights Reserved.</p>
   </footer>
 
   <script src="./assets/js/main.js"></script>
   <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
