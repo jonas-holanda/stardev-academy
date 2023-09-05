@@ -11,16 +11,14 @@
 </head>
 <body>
   <header class="header">
-    <div class="header-content scroll">
+    <div class="header-content ">
       <div class="logo" data-aos="fade-up" data-aos-duration="600">
         <img src="./assets/images/stardev-logo1.webp" title="Logotipo da StarDev Academy" alt="Logotipo da StarDev Academy">
       </div>
       <h1>Domine a força da programação na StarDev Academy!</h1>
       <p>Domine a arte do desenvolvimento de sistemas com nossos cursos gratuitos.</p>
-      <button class="btn shadow__btn ef-pulse-grow">Inscreva-se agora e conquiste a galáxia da programação!</button>
       
-      <!-- <a href="#professional-challenges" > -->
-        <button class="btn-space " type="button">
+        <button class="btn-space scroll" type="button">
           <strong>Inscreva-se agora e conquiste a galáxia da programação!</strong>
           <div id="container-stars">
             <div id="stars"></div>
@@ -31,7 +29,6 @@
             <div class="circle"></div>
           </div>
         </button>
-      <!-- </a> -->
       
     </div>
   </header>
@@ -68,23 +65,49 @@
           <p>Ementa do curso de Java</p>
         </div>
       </div>
+      
+      <button class="btn shadow__btn ef-pulse-grow scroll">Inscreva-se agora na StarDev Academy!</button>
+
     </section>
-    <section id="transform-world" data-aos="fade-up" data-aos-duration="600">
+    <section id="faq" data-aos="fade-up" data-aos-duration="600">
       <!-- <p>TRANSFORME O MUNDO COM A GENTE</p> -->
       <h2>Aqui vai alguma coisa</h2>
       <P>FAQ</P>
       <P>TESTMONIALS</P>
+      <button class="btn shadow__btn ef-pulse-grow scroll">Aproveite os cursos gratuitos da StarDev Academy!</button>
+
     </section>
-    <section id="professional-challenges" data-aos="fade-up" data-aos-duration="600">
+    <section id="banner-section" data-aos="fade-up" data-aos-duration="600">
+
       <img src="./assets/images/banner_StarDev.webp" id="banner" title="Banner da StarDev Academy" alt="Banner da StarDev Academy">
-      <h2>Inscreva-se Agora, enquanto ainda tem vagas!!!</h2>
-      <p>
-        AQUI VAI FICAR O FORMULÁRIO
-      </p>
+      <h2>Inscreva-se Agora, enquanto ainda há vagas!!!</h2>
+    </section>
+    <section id="inscricoes" data-aos="fade-up" data-aos-duration="600">
+      
+      <form method="GET" action="#" id="inscricao">
+        <h2>Formulário de Inscrição</h2>
+        <label for="nome"><strong><span class="iconify" data-icon="line-md:account"></span> Nome Completo</strong></label>
+        <input type="text" id="nome" name="nome" required placeholder="Informe seu Nome Completo *">
+        <label for="email"><strong><span class="iconify" data-icon="line-md:email"></span> Email</strong></label>
+        <input type="email" id="email" name="email" required placeholder="Informe seu Email *">
+        <label for="Curso"><strong><span class="iconify" data-icon="streamline:programming-browser-code-2-code-browser-tags-angle-programming-bracket"></span> Curso</strong></label>
+        <select id="Curso" name="curso" required>
+          <option value="">Selecione um Curso</option>
+          <option value="Curso completo de PHP">Curso completo de PHP</option>
+          <option value="Curso completo de Python">Curso completo de Python</option>
+          <option value="Curso completo de Java">Curso completo de Java</option>
+        </select>
+        <div style="text-align: center;">
+            <button type="submit" class="botao-cadastro"><span class="iconify" data-icon="line-md:clipboard-check"></span> CADASTRAR</button>
+            <button type="reset" class="botao-limpar"><span class="iconify" data-icon="ant-design:clear-outlined"></span> &nbsp;&nbsp;&nbsp;LIMPAR&nbsp;&nbsp;&nbsp;</button>
+        </div>
+        
+       
+    </form>
     </section>
   </main>
   <footer class="scroll">
-    <a href="#professional-challenges"><img data-aos="fade-up" data-aos-duration="600" class="star-logo" src="./assets/images/stardev-logo2.webp" title="Logotipo da StarDev Academy" alt="Logotipo da StarDev Academy"></a>
+    <a href="#inscricao"><img data-aos="fade-up" data-aos-duration="600" class="star-logo" src="./assets/images/stardev-logo2.webp" title="Logotipo da StarDev Academy" alt="Logotipo da StarDev Academy"></a>
     <p>© 2023. Designed by <a href="https://github.com/jonas-holanda" target="_blank">Jonas Holanda.</a> All Rights Reserved.</p>
   </footer>
 

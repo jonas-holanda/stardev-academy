@@ -16,7 +16,7 @@ for (let i = 0; i < coll.length; i++) {
 const menuItems = document.querySelectorAll('.scroll');
 
 function getScrollTopByHref(element) {
-	const id = '#professional-challenges';
+	const id = '#inscricoes';
 	return document.querySelector(id).offsetTop;
 }
 
