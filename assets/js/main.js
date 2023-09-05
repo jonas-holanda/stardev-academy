@@ -14,7 +14,7 @@ for (let i = 0; i < coll.length; i++) {
 
 
 const menuItems = document.querySelectorAll('.scroll');
-console.log(menuItems)
+
 function getScrollTopByHref(element) {
 	const id = '#professional-challenges';
 	return document.querySelector(id).offsetTop;
@@ -53,7 +53,7 @@ function smoothScrollTo(endX, endY, duration) {
   const distanceY = endY - startY;
   const startTime = new Date().getTime();
 
-  duration = typeof duration !== 'undefined' ? duration : 400;
+  duration = typeof duration !== 'undefined' ? duration : 600;
 
   // Easing function
   const easeInOutQuart = (time, from, distance, duration) => {
@@ -71,5 +71,5 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60); // 60 fps
 
-  console.log('Browser sem suporte a behavior')
+  // console.log('Browser sem suporte a behavior')
 };
