@@ -42,9 +42,7 @@
     text-align: center;
   }
 
-  #banner {
-    width: 100%;
-  }
+  
   
   .header h1 {
     font-size: 2.5rem;
@@ -81,16 +79,8 @@
     object-fit: contain;
   }
 
-   #banner img {
-    /* Banner do site decidir onde vai ficar */
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
 
 
-  
   .btn {
     color: #FEFF02;
     font-size: 1rem;
@@ -173,6 +163,10 @@
     /* padding: 200px; */
     text-align: center;
   }
+
+  #faq button, h2 {
+    margin-top: 30px;
+  }
   
   /* #faq p {
     font-weight: 900;
@@ -182,6 +176,16 @@
     text-shadow: 3px 2px #FEFF02;
   } */
   
+  #banner {
+    width: 100%;
+  }
+
+  #banner img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
   
   #banner-section {
     margin: 0px auto;
@@ -257,6 +261,7 @@
     text-decoration:none;
     font-weight:bold;
     margin:auto;
+    margin-top: 10px;
     padding:12px 25px;
     text-align: center;
     background-color:#001D3D;
@@ -271,6 +276,7 @@
     text-decoration:none;
     font-weight:bold;
     margin:auto;
+    margin-top: 10px;
     padding:12px 25px;
     text-align: center;
     background-color:#3A3A3A;
@@ -540,7 +546,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    section, #informations, #banner-section, #inscricoes {
+    section, #informations, #banner-section, #inscricoes, #faq {
       width: 100%;
       padding: 0 5px;
     }
@@ -563,7 +569,7 @@
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: center;
-      padding: 100px;
+      /* padding: 100px; */
     }
 
     /* #faq p {
