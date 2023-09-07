@@ -35,16 +35,10 @@
   
   .header {
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2), rgba(0, 0, 0, .7));
-    /* background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.webp'); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    
-    /* height: 600px; */
     padding-top: 60px;
     border-bottom: 1px solid #FEBE01;
   }
 
-  
   .header .header-content {
     color: white;
     width: 600px;
@@ -52,8 +46,6 @@
     text-align: center;
   }
 
-  
-  
   .header h1 {
     font-size: 2.5rem;
     font-weight: 900;
@@ -71,12 +63,10 @@
   }
   
   .header .logo {
-    /* background-color: rgba(254, 190, 1, .2); */
     height: 260px;
     width: 260px;
     margin: auto;
     border-radius: 50%;
-    /* border: 1px solid #FEBE01; */
     border: thick double #FEBE01;
     padding: 16px;
     margin-bottom: 16px;
@@ -88,8 +78,6 @@
     height: 100%;
     object-fit: contain;
   }
-
-
 
   .btn {
     color: #FEFF02;
@@ -104,7 +92,6 @@
     border-radius: 30px;
     margin-bottom: 30px;
   }
-
 
   #informations {
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2), rgba(0, 0, 0, .7));
@@ -142,12 +129,10 @@
     background-color: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9), rgba(0, 0, 0, .9));
   }
   
-
   #informations .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    
   }
 
   #informations .collapsible {
@@ -168,15 +153,8 @@
   
   #faq {
     background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .2), rgba(0, 0, 0, .7));
-    /* height: 560px; */
-    /* background-size:contain;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-image: url("../images/banner_StarDev.webp"); */
-    /* background-attachment: fixed; */
     border-top: 1px solid #FEBE01;
     border-bottom: 1px solid #FEBE01;
-    /* padding: 200px; */
     text-align: center;
   }
 
@@ -231,7 +209,6 @@
     padding: 60px 5px;
     text-align: center;
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(254,190,1,.1));
-    
     border-top: 1px solid #FEBE01;
   }
   
@@ -353,7 +330,6 @@
 
   }
   
-  
   .shadow__btn {
     letter-spacing: 4px;
     padding: 16px 32px;
@@ -369,7 +345,6 @@
   }
   
   .shadow__btn {
-    /* background: #FEFF02; */
     box-shadow: 0 0 25px #FEBE01;
     
   }
@@ -381,21 +356,6 @@
                 0 0 100px #FEBE01;
   }
 
-
-  /* Botão Espaço */
-  /* .header .header-content .btn {
-    color: #FEFF02;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 16px 32px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    background-color: transparent;
-    border-image: linear-gradient(#FEFF02, #FEBE01);
-    border-image-slice: 10;
-    border-radius: 30px;
-    margin-bottom: 30px;
-  } */
   .btn-space {
     display: flex;
     justify-content: center;
@@ -412,7 +372,6 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
     margin-bottom: 30px;
-    /* background: linear-gradient(137deg, rgba(254, 190, 1, 1) 10%, rgba(170, 129, 7, 1) 45%, rgba(150, 116, 14, 1) 67%, rgba(143, 111, 17, 1) 87%); */
   }
   
   #container-stars {
@@ -432,7 +391,6 @@
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: bold;
-    /* color: #e0fbfc; */
     color: #f5f3f4;
     text-shadow: 1px 1px 4px black;
   }
@@ -578,7 +536,6 @@
       width: 100%;
     }
 
-
     #inscricoes img {
       width: 100%;
     }
@@ -588,11 +545,9 @@
     }
 
     #faq {
-      /* height: 450px; */
       background-size: 100% auto;
       background-repeat: no-repeat;
       background-position: center;
-      /* padding: 100px; */
     }
 
     #faq .faq-content {
