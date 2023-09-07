@@ -14,6 +14,16 @@
     text-transform: uppercase;
     margin-bottom: 24px;
   }
+
+  h3 {
+    font-size: 1.2rem;
+    color: #FEFF02;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 4rem;
+    margin-bottom: 10px;
+  }
   
   p {
     color: white;
@@ -127,6 +137,12 @@
     color: #FEFF02;
   }
 
+  #informations .content p {
+    margin-bottom: 15px;
+    background-color: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9), rgba(0, 0, 0, .9));
+  }
+  
+
   #informations .content {
     padding: 0 18px;
     display: none;
@@ -164,17 +180,20 @@
     text-align: center;
   }
 
-  #faq button, h2 {
-    margin-top: 30px;
+  #faq .faq-content {
+    background-color: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    width: 600px;
+    margin: auto;
+    text-align: center;
   }
-  
-  /* #faq p {
-    font-weight: 900;
-    font-size: 2.5rem;
-    text-transform: lowercase;
-    max-width: 250px;
-    text-shadow: 3px 2px #FEFF02;
-  } */
+
+  #faq .faq-content p {
+    letter-spacing: 1.5px;
+  }
+
+  #faq .faq-content button, h2 {
+    margin-top: 60px;
+  }
   
   #banner {
     width: 100%;
@@ -204,8 +223,8 @@
     width: 800px;
   }
   
-  #inscricoes img {
-    margin: 32px 0;
+  #inscricoes h2 {
+    margin-top: 5px;
   }
   
   footer {
@@ -228,8 +247,8 @@
 
   form {
     margin: 0 auto;
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 800px;
     padding: 20px;
     border: 1px solid #FEBE01;
     border-radius: 10px;
@@ -572,22 +591,9 @@
       /* padding: 100px; */
     }
 
-    /* #faq p {
-      font-weight: 900;
-      font-size: 2.5rem;
-      text-transform: lowercase;
-      max-width: 250px;
-      text-shadow: 3px 2px #FEFF02;
-    } */
-    
-    
-    h2 {
-      font-size: 1.5rem;
+    #faq .faq-content {
+      width: 100%;
     }
-    
-    /* .header {
-      height: 700px;
-    } */
     
     .header .header-content {
       width: 100%;
