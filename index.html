@@ -123,16 +123,17 @@
       <form method="GET" action="#" id="inscricao">
         <h2>Formulário de Inscrição</h2>
         <label for="nome"><strong><span class="iconify iconify-inline" data-inline="true" data-icon="line-md:account"></span> Nome Completo</strong></label>
-        <input type="text" id="nome" name="nome" required placeholder="Informe seu Nome Completo *">
+        <input type="text" id="nome" placeholder="Informe seu Nome Completo *" required>
         <label for="email"><strong><span class="iconify iconify-inline" data-inline="true" data-icon="line-md:email"></span> Email</strong></label>
-        <input type="email" id="email" name="email" required placeholder="Informe seu Email *">
+        <input type="email" id="email" placeholder="Informe seu Email *" required>
         <label for="Curso"><strong><span class="iconify iconify-inline" data-inline="true" data-icon="streamline:programming-browser-code-2-code-browser-tags-angle-programming-bracket"></span> Curso</strong></label>
-        <select id="Curso" name="curso" required>
+        <select id="Curso" required>
           <option value="">Selecione um Curso</option>
           <option value="Curso completo de PHP">Curso completo de PHP</option>
           <option value="Curso completo de Python">Curso completo de Python</option>
           <option value="Curso completo de Java">Curso completo de Java</option>
         </select>
+        <input type="hidden" name="inscricao" value="sucesso">
         <div>
             <button type="submit" class="botao-cadastro"><span class="iconify" data-icon="line-md:clipboard-check"></span> CADASTRAR</button>
             <button type="reset" class="botao-limpar"><span class="iconify" data-icon="ant-design:clear-outlined"></span> &nbsp;&nbsp;&nbsp;LIMPAR&nbsp;&nbsp;&nbsp;</button>
@@ -144,7 +145,7 @@
   </main>
   <footer >
     <a href="#inscricao" class="scroll"><img data-aos="fade-up" data-aos-duration="600" class="star-logo" src="./assets/images/stardev-logo2.webp" title="Logotipo da StarDev Academy" alt="Logotipo da StarDev Academy"></a>
-    <p>© 2023. Designed by <a href="https://github.com/jonas-holanda" target="_blank">Jonas Holanda.</a> All Rights Reserved.</p>
+    <p><b>© 2023. Designed by <a href="https://github.com/jonas-holanda" target="_blank">Jonas Holanda.</a> All Rights Reserved.</b></p>
   </footer>
 
   <script src="./assets/js/main.js"></script>
