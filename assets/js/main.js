@@ -71,5 +71,4 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60); // 60 fps
 
-  // console.log('Browser sem suporte a behavior')
 };
