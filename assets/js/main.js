@@ -1,3 +1,5 @@
+const data = document.querySelector('#data').innerText = (new Date().getFullYear());
+
 const coll = document.getElementsByClassName("collapsible");
 
 for (let i = 0; i < coll.length; i++) {
