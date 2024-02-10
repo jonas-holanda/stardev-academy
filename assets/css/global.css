@@ -5,6 +5,8 @@
   box-sizing: border-box;
   margin: 0;
   font-size: 1.03rem;
+  scrollbar-width: thin;
+  scrollbar-color: #252525 #FEBE01;
 }
 
 h1,h2 {
