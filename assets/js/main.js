@@ -74,3 +74,35 @@ function smoothScrollTo(endX, endY, duration) {
   }, 1000 / 60); // 60 fps
 
 };
+
+// Função Para Botão de voltar ao topo
+const backToTopButton = document.querySelector('.back-to-top');
+
+const backToTop = () => {
+    if (window.scrollY >= 100) {
+        backToTopButton.classList.add('show');
+    } else {
+        backToTopButton.classList.remove('show');
+    }
+}
+
+window.addEventListener('scroll', function () {
+    backToTop();
+});
+
+//Scroll para o topo
+const topo = document.querySelectorAll('.back-to-top');
+function getScrollTopByHrefTopo(element) {
+	const id = '#top';
+	return document.querySelector(id).offsetTop;
+}
+
+function scrollToIdOnClickTopo(event) {
+	event.preventDefault();
+	const to = getScrollTopByHrefTopo(event.currentTarget)- 80;
+	scrollToPosition(to);
+}
+
+topo.forEach(item => {
+	item.addEventListener('click', scrollToIdOnClickTopo);
+});
